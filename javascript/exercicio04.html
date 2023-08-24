@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 4</title>
+    <script>
+      //Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável.
+
+      let A = 0;
+      let baseR = prompt("Informe a Base para o Retângulo:");
+      let alturaR = prompt("Informe a Altura o Retângulo:");
+      A = baseR * alturaR;
+      window.document.writeln(`A área do Retângulo é de: ${A} |`);
+
+      let ladoQ = prompt("Informe o Lado do Quadrado:");
+      A = ladoQ * ladoQ;
+      window.document.writeln(`A área do Quadrado é de: ${A} |`);
+
+      let diagonal_maior = prompt("Informe o Diagonal Maior para o Losango:");
+      let diagonal_menor = prompt("Informe o Diagonal Menor para o Losango:");
+      A = (diagonal_maior * diagonal_menor) / 2;
+      window.document.writeln(`A área do Losango é de: ${A} |`);
+
+      let baseMaior = prompt("Informe a Base Maior para o Trapézio:");
+      let baseMenor = prompt("Informe a Base Menor para o Trapézio:");
+      let alturaT = prompt("Altura Trapézio:");
+      A = ((baseMaior + baseMenor) * alturaT) / 2;
+      window.document.writeln(`A área do Trapézio é de: ${A} |`);
+
+      let baseP = prompt("Informe a Base para o Paralelogramo:");
+      let alturaP = prompt("Altura Paralelogramo:");
+      A = baseP * alturaP;
+      window.document.writeln(`A área do Paralelogramo é de: ${A} |`);
+
+      let baseTri = prompt("Informe a Base Maior para o Trapézio:");
+      let alturaTri = prompt("Altura Triângulo:");
+      A = (baseTri * alturaTri) / 2;
+      window.document.writeln(`A área do Triângulo é de: ${A} |`);
+
+      const pi = 3.14159;
+      let raio = prompt("Digite o Raio do Círculo:");
+      A = pi * (raio * raio);
+      window.document.writeln(`A área do Círculo é de: ${A} |`);
+    </script>
+  </head>
+  <body></body>
+</html>
